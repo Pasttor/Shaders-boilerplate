@@ -108,3 +108,14 @@ void main() {
   gl_Position = projectionMatrix * modelViewMatrix * vec4( newPosition, 1.0 );
 
 }
+
+/*
+//default
+uniform float time;
+
+void main() {
+
+    gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(
+    position, 1.0);
+}
+*/
